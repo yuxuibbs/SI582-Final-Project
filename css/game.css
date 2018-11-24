@@ -1,0 +1,59 @@
+/* Game */
+#answers {
+    text-align: center;
+}
+
+.sixPointClue {
+    background: lightgreen;
+    border-radius: 15px;
+}
+
+.fourPointClue {
+    background: gold;
+    border-radius: 15px;
+}
+
+.twoPointClue {
+    background: lightsalmon;
+    border-radius: 15px;
+}
+
+div .form-check-inline {
+    margin: 10px;
+    padding: 0;
+    background: lightblue;
+    border-radius: 15px;
+}
+
+.form-check-label {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button-right {
+    float: right;
+}
+
+@media (min-width: 576px) {
+    .col-sm-4 {
+        width: 30%;
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-3 {
+        width: 21%;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-2 {
+        width: 14%;
+    }
+}
+
+@media (min-width: 1442px) {
+    .col-lg-2 {
+        width: 15%;
+    }
+}

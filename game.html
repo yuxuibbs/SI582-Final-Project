@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Play Online Presidents
+        </title>
+        <!-- Bootstrap -->
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet"/>
+        <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+        </script>
+        <!-- CSS -->
+        <link href="css/styles.css" rel="stylesheet"/>
+        <link href="css/game.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>
+            Play Online Presidents
+        </h1>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="play.html">
+                            Play
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howto.html">
+                            How To Play
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="email.html">
+                            Join Email List
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contribute.html">
+                            Contribute
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            Sign In
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">
+                            Profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br/>
+        <div class="container-fluid">
+            <h2>
+                Play Online Presidents
+            </h2>
+            <br/>
+            <h3 id="questionNumber">
+                Question #1
+            </h3>
+            <br/>
+            <form action="game.html">
+                <div class="row" id="clues">
+                    <div class="col-sm-4 sixPointClue">
+                        <fieldset>
+                            <legend class="col-form-label">
+                                <strong>
+                                    6 point clue
+                                </strong>
+                            </legend>
+                            <div id="clue6">
+                                <p>
+                                    Lorem ipsum dolor sit amet, doming accumsan no sed, ei alienum propriae democritum vim, docendi commune in mei. Eum ad sint illud comprehensam, vidisse suavitate ea his. Falli iuvaret theophrastus ea vix, et eam convenire disputando. Decore apeirian recteque ea mel, vix vitae quaestio no, ex duo eirmod erroribus. Cum no graecis mandamus adipiscing.
+                                </p>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-sm-4 fourPointClue">
+                        <fieldset>
+                            <legend class="col-form-label">
+                                <strong>
+                                    4 point clue
+                                </strong>
+                            </legend>
+                            <div id="clue4">
+                                <p>
+                                    Ex sit nullam definiebas adversarium, sea vidit soluta ei, noster accommodare ne cum. Ex propriae constituto usu, novum impetus euismod sit an. Vis equidem sanctus albucius ne. No vis sapientem incorrupte, quo perpetua argumentum neglegentur eu. Usu iudico antiopam persecuti in, vis ne mucius scripta. Vix diam indoctum erroribus ex, paulo soluta prodesset ex pri. Cu sed agam denique, ius at adolescens contentiones.
+                                </p>
+                            </div>
+                        </fieldset>
+                    </div>
+                    <div class="col-sm-4 twoPointClue">
+                        <fieldset>
+                            <legend class="col-form-label">
+                                <strong>
+                                    2 point clue
+                                </strong>
+                            </legend>
+                            <div id="clue2">
+                                <p>
+                                    Est duis iuvaret sensibus in. Vis quod ponderum tacimates at, atqui debet maluisset in sea, at pro meliore contentiones. At eos meis dissentiunt, admodum volutpat mnesarchum ex nam. At latine aliquando vis, pri ei numquam percipit vituperata. Eu solum intellegam nam. Eam ex integre pericula deseruisse, qui et iusto tritani, movet sadipscing mea ne.
+                                </p>
+                            </div>
+                        </fieldset>
+                    </div>
+                </div>
+                <br/>
+                <h2>
+                    Answer
+                </h2>
+                <div class="row-fluid" id="answers">
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            1
+                            <br/>
+                            <strong>
+                                George Washington
+                            </strong>
+                            <br/>
+                            Lived 1732-1799
+                            <br/>
+                            Born in Virginia
+                            <br/>
+                            Died in Virginia
+                            <br/>
+                            President 1789-1797
+                            <br/>
+                            Party: None
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            2
+                            <br/>
+                            <strong>
+                                John Adams
+                            </strong>
+                            <br/>
+                            Lived 1735-1826
+                            <br/>
+                            Born in Massachusetts
+                            <br/>
+                            Died in Massachusetts
+                            <br/>
+                            President 1797-1801
+                            <br/>
+                            Party: Federalist
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            3
+                            <br/>
+                            <strong>
+                                Thomas Jefferson
+                            </strong>
+                            <br/>
+                            Lived 1743-1826
+                            <br/>
+                            Born in Virginia
+                            <br/>
+                            Died in Virginia
+                            <br/>
+                            President 1801-1809
+                            <br/>
+                            Party: Democrat-Republican
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            4
+                            <br/>
+                            <strong>
+                                James Madison
+                            </strong>
+                            <br/>
+                            Lived 1751-1836
+                            <br/>
+                            Born in Virginia
+                            <br/>
+                            Died in Virginia
+                            <br/>
+                            President 1809-1817
+                            <br/>
+                            Party: Democrat-Republican
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            5
+                            <br/>
+                            <strong>
+                                James Monroe
+                            </strong>
+                            <br/>
+                            Lived 1758-1831
+                            <br/>
+                            Born in Virginia
+                            <br/>
+                            Died in New York
+                            <br/>
+                            President 1817-1825
+                            <br/>
+                            Party: Democrat-Republican
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            6
+                            <br/>
+                            <strong>
+                                John Quincy Adams
+                            </strong>
+                            <br/>
+                            Lived 1767-1848
+                            <br/>
+                            Born in Massachusetts
+                            <br/>
+                            Died in Washington, D.C.
+                            <br/>
+                            President 1825-1829
+                            <br/>
+                            Party: Democrat-Republican
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            7
+                            <br/>
+                            <strong>
+                                Andrew Jackson
+                            </strong>
+                            <br/>
+                            Lived 1767-1845
+                            <br/>
+                            Born in South Carolina
+                            <br/>
+                            Died in Tennessee
+                            <br/>
+                            President 1829-1837
+                            <br/>
+                            Party: Democratic
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            8
+                            <br/>
+                            <strong>
+                                Martin Van Buren
+                            </strong>
+                            <br/>
+                            Lived 1782-1862
+                            <br/>
+                            Born in New York
+                            <br/>
+                            Died in New York
+                            <br/>
+                            President 1837-1841
+                            <br/>
+                            Party: Democratic
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            9
+                            <br/>
+                            <strong>
+                                William Henry Harrison
+                            </strong>
+                            <br/>
+                            Lived 1773-1841
+                            <br/>
+                            Born in Virginia
+                            <br/>
+                            Died in Washington, D.C.
+                            <br/>
+                            President 1841-1841
+                            <br/>
+                            Party: Whig
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            10
+                            <br/>
+                            <strong>
+                                John Tyler
+                            </strong>
+                            <br/>
+                            Lived 1790-1862
+                            <br/>
+                            Born in Virginia
+                            <br/>
+                            Died in Virginia
+                            <br/>
+                            President 1841-1845
+                            <br/>
+                            Party: Whig
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            11
+                            <br/>
+                            <strong>
+                                James Polk
+                            </strong>
+                            <br/>
+                            Lived 1795-1849
+                            <br/>
+                            Born in North Carolina
+                            <br/>
+                            Died in Tennessee
+                            <br/>
+                            President 1845-1849
+                            <br/>
+                            Party: Democratic
+                        </label>
+                    </div>
+                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
+                        <label class="form-check-label">
+                            <input class="form-check-input" name="answer" type="radio"/>
+                            12
+                            <br/>
+                            <strong>
+                                Zachary Taylor
+                            </strong>
+                            <br/>
+                            Lived 1784-1850
+                            <br/>
+                            Born in Virginia
+                            <br/>
+                            Died in Washington, D.C.
+                            <br/>
+                            President 1849-1850
+                            <br/>
+                            Party: Whig
+                        </label>
+                    </div>
+                </div>
+                <br/>
+                <button class="btn btn-success btn-lg col-sm-6" type="submit">
+                    Submit
+                </button>
+                <button class="btn btn-warning btn-lg col-sm-6 button-right" type="button">
+                    Next Clue
+                </button>
+            </form>
+        </div>
+        <hr/>
+        <footer class="px-4 py-2">
+            <p>
+                Copyright © 2018
+                <a href="mailto:yuxuanc@umich.edu">
+                    Yuxuan Chen
+                </a>
+            </p>
+        </footer>
+    </body>
+</html>

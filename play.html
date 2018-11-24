@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Play Online Presidents
+        </title>
+        <!-- Bootstrap -->
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet"/>
+        <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+        </script>
+        <!-- CSS -->
+        <link href="css/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>
+            Play Online Presidents
+        </h1>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="play.html">
+                            Play
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howto.html">
+                            How To Play
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="email.html">
+                            Join Email List
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contribute.html">
+                            Contribute
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            Sign In
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">
+                            Profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <h2>
+                Play Online Presidents
+            </h2>
+            <form action="game.html">
+                <div class="row-fluid">
+                    <legend class="col-form-label col-sm-3">
+                        Presidents Range
+                    </legend>
+                    <div class="col-sm-9">
+                        <div class="form-check">
+                            <input class="form-check-input" name="prezRange" type="radio"/>
+                            <label class="form-check-label">
+                                1 - 12
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="prezRange" type="radio"/>
+                            <label class="form-check-label">
+                                13 - 24
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="prezRange" type="radio"/>
+                            <label class="form-check-label">
+                                25 - 34
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="prezRange" type="radio"/>
+                            <label class="form-check-label">
+                                35 - 45
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row-fluid">
+                    <legend class="col-form-label col-sm-3">
+                        Difficulty Level
+                    </legend>
+                    <div class="col-sm-9">
+                        <div class="form-check">
+                            <input class="form-check-input" name="questionLevel" type="radio" value="Elementary/Middle"/>
+                            <label class="form-check-label">
+                                Elementary/Middle (Grades 8 and below)
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="questionLevel" type="radio" value="Junior/Senior"/>
+                            <label class="form-check-label">
+                                Junior/Senior (Grades 9-12)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-success btn-lg" type="submit">
+                    Start
+                </button>
+            </form>
+        </div>
+        <hr/>
+        <footer class="px-4 py-2">
+            <p>
+                Copyright © 2018
+                <a href="mailto:yuxuanc@umich.edu">
+                    Yuxuan Chen
+                </a>
+            </p>
+        </footer>
+    </body>
+</html>

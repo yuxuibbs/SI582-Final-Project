@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Join Email List
+        </title>
+        <!-- Bootstrap -->
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet"/>
+        <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" src="https://code.jquery.com/jquery-3.3.1.slim.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+        </script>
+        <script crossorigin="anonymous" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js">
+        </script>
+        <!-- CSS -->
+        <link href="css/styles.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <h1>
+            Online Presidents: Join Email List
+        </h1>
+        <nav class="navbar navbar-expand navbar-dark bg-dark">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav nav-fill w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="play.html">
+                            Play
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="howto.html">
+                            How To Play
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="email.html">
+                            Join Email List
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contribute.html">
+                            Contribute
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">
+                            Sign In
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">
+                            Profile
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <br/>
+        <div class="container">
+            <h2>
+                Presidents Clue Email List
+            </h2>
+            <br/>
+            <p>
+                Get one free presidents clue every day.
+            </p>
+            <br/>
+            <form action="index.html" onsubmit="alert('Your email has been recorded');">
+                <div class="row">
+                    <legend class="col-form-label col-sm-3 pt-0">
+                        Presidents Range
+                    </legend>
+                    <div class="col-sm-9">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"/>
+                            <label class="form-check-label">
+                                1-12
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"/>
+                            <label class="form-check-label">
+                                13-24
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"/>
+                            <label class="form-check-label">
+                                25-34
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox"/>
+                            <label class="form-check-label">
+                                35-45
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <legend class="col-form-label col-sm-3 pt-0">
+                        Frequency
+                    </legend>
+                    <div class="col-sm-9">
+                        <div class="form-check">
+                            <input class="form-check-input" name="emailFrequency" type="radio" value="daily"/>
+                            <label class="form-check-label">
+                                Daily
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" name="emailFrequency" type="radio" value="weekly"/>
+                            <label class="form-check-label">
+                                Weekly
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <label>
+                            Email address
+                        </label>
+                    </div>
+                    <div class="col-sm-9">
+                        <input class="form-control" placeholder="Enter email" type="email"/>
+                    </div>
+                </div>
+                <button class="btn btn-success btn-lg" type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+        <hr/>
+        <footer class="px-4 py-2">
+            <p>
+                Copyright © 2018
+                <a href="mailto:yuxuanc@umich.edu">
+                    Yuxuan Chen
+                </a>
+            </p>
+        </footer>
+    </body>
+</html>

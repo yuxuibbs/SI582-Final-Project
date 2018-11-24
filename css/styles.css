@@ -1,0 +1,15 @@
+/* Entire site */
+.center {
+    text-align: center;
+}
+
+div .row, div .row-fluid {
+    padding: 10px 0;
+}
+
+/* Navbar */
+nav ul li a {
+    font-weight: bold;
+    font-size: 20px;
+}
+

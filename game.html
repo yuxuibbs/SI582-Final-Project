@@ -15,6 +15,9 @@
         <!-- CSS -->
         <link href="css/styles.css" rel="stylesheet"/>
         <link href="css/game.css" rel="stylesheet"/>
+        <!-- Custom JavaScript -->
+        <script src="js/game.js">
+        </script>
     </head>
     <body>
         <h1>
@@ -71,7 +74,7 @@
                 Question #1
             </h3>
             <br/>
-            <form action="game.html">
+            <form action="score.html">
                 <div class="row" id="clues">
                     <div class="col-sm-4 sixPointClue">
                         <fieldset>
@@ -121,255 +124,29 @@
                     Answer
                 </h2>
                 <div class="row-fluid" id="answers">
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            1
-                            <br/>
-                            <strong>
-                                George Washington
-                            </strong>
-                            <br/>
-                            Lived 1732-1799
-                            <br/>
-                            Born in Virginia
-                            <br/>
-                            Died in Virginia
-                            <br/>
-                            President 1789-1797
-                            <br/>
-                            Party: None
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            2
-                            <br/>
-                            <strong>
-                                John Adams
-                            </strong>
-                            <br/>
-                            Lived 1735-1826
-                            <br/>
-                            Born in Massachusetts
-                            <br/>
-                            Died in Massachusetts
-                            <br/>
-                            President 1797-1801
-                            <br/>
-                            Party: Federalist
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            3
-                            <br/>
-                            <strong>
-                                Thomas Jefferson
-                            </strong>
-                            <br/>
-                            Lived 1743-1826
-                            <br/>
-                            Born in Virginia
-                            <br/>
-                            Died in Virginia
-                            <br/>
-                            President 1801-1809
-                            <br/>
-                            Party: Democrat-Republican
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            4
-                            <br/>
-                            <strong>
-                                James Madison
-                            </strong>
-                            <br/>
-                            Lived 1751-1836
-                            <br/>
-                            Born in Virginia
-                            <br/>
-                            Died in Virginia
-                            <br/>
-                            President 1809-1817
-                            <br/>
-                            Party: Democrat-Republican
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            5
-                            <br/>
-                            <strong>
-                                James Monroe
-                            </strong>
-                            <br/>
-                            Lived 1758-1831
-                            <br/>
-                            Born in Virginia
-                            <br/>
-                            Died in New York
-                            <br/>
-                            President 1817-1825
-                            <br/>
-                            Party: Democrat-Republican
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            6
-                            <br/>
-                            <strong>
-                                John Quincy Adams
-                            </strong>
-                            <br/>
-                            Lived 1767-1848
-                            <br/>
-                            Born in Massachusetts
-                            <br/>
-                            Died in Washington, D.C.
-                            <br/>
-                            President 1825-1829
-                            <br/>
-                            Party: Democrat-Republican
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            7
-                            <br/>
-                            <strong>
-                                Andrew Jackson
-                            </strong>
-                            <br/>
-                            Lived 1767-1845
-                            <br/>
-                            Born in South Carolina
-                            <br/>
-                            Died in Tennessee
-                            <br/>
-                            President 1829-1837
-                            <br/>
-                            Party: Democratic
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            8
-                            <br/>
-                            <strong>
-                                Martin Van Buren
-                            </strong>
-                            <br/>
-                            Lived 1782-1862
-                            <br/>
-                            Born in New York
-                            <br/>
-                            Died in New York
-                            <br/>
-                            President 1837-1841
-                            <br/>
-                            Party: Democratic
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            9
-                            <br/>
-                            <strong>
-                                William Henry Harrison
-                            </strong>
-                            <br/>
-                            Lived 1773-1841
-                            <br/>
-                            Born in Virginia
-                            <br/>
-                            Died in Washington, D.C.
-                            <br/>
-                            President 1841-1841
-                            <br/>
-                            Party: Whig
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            10
-                            <br/>
-                            <strong>
-                                John Tyler
-                            </strong>
-                            <br/>
-                            Lived 1790-1862
-                            <br/>
-                            Born in Virginia
-                            <br/>
-                            Died in Virginia
-                            <br/>
-                            President 1841-1845
-                            <br/>
-                            Party: Whig
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            11
-                            <br/>
-                            <strong>
-                                James Polk
-                            </strong>
-                            <br/>
-                            Lived 1795-1849
-                            <br/>
-                            Born in North Carolina
-                            <br/>
-                            Died in Tennessee
-                            <br/>
-                            President 1845-1849
-                            <br/>
-                            Party: Democratic
-                        </label>
-                    </div>
-                    <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
-                        <label class="form-check-label">
-                            <input class="form-check-input" name="answer" type="radio"/>
-                            12
-                            <br/>
-                            <strong>
-                                Zachary Taylor
-                            </strong>
-                            <br/>
-                            Lived 1784-1850
-                            <br/>
-                            Born in Virginia
-                            <br/>
-                            Died in Washington, D.C.
-                            <br/>
-                            President 1849-1850
-                            <br/>
-                            Party: Whig
-                        </label>
-                    </div>
                 </div>
                 <br/>
-                <button class="btn btn-success btn-lg col-sm-6" type="submit">
+                <button class="btn btn-success btn-lg btn-block" type="submit">
                     Submit
                 </button>
-                <button class="btn btn-warning btn-lg col-sm-6 button-right" type="button">
+                <button class="btn btn-warning btn-lg btn-block" type="button" name="clue" value="6" onclick="next_clue()" id="next-clue">
                     Next Clue
                 </button>
             </form>
+            <div id="game-progress" class="game-progress">
+                <div class="status current">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+                <div class="status">&nbsp</div>
+            </div>
         </div>
         <hr/>
         <footer class="px-4 py-2">

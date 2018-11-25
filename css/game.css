@@ -3,6 +3,11 @@
     text-align: center;
 }
 
+#clue4, #clue2 {
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+
 .sixPointClue {
     background: lightgreen;
     border-radius: 15px;
@@ -30,10 +35,6 @@ div .form-check-inline {
     margin: 0 auto;
 }
 
-.button-right {
-    float: right;
-}
-
 @media (min-width: 576px) {
     .col-sm-4 {
         width: 30%;
@@ -57,3 +58,32 @@ div .form-check-inline {
         width: 15%;
     }
 }
+
+
+/* Progress bar */
+.game-progress {
+    padding: 2rem;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.status {
+    border: 2px solid black;
+    font-size: 10px;
+    display: inline-block;
+    margin: 0 0.1rem;
+    width: 7%;
+}
+
+.current {
+    background-color: blue;
+}
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+

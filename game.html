@@ -16,6 +16,8 @@
         <link href="css/styles.css" rel="stylesheet"/>
         <link href="css/game.css" rel="stylesheet"/>
         <!-- Custom JavaScript -->
+        <script src="js/questions.js">
+        </script>
         <script src="js/game.js">
         </script>
     </head>
@@ -31,7 +33,7 @@
                             Home
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="play.html">
                             Play
                         </a>
@@ -70,11 +72,16 @@
                 Play Online Presidents
             </h2>
             <br/>
-            <h3 id="questionNumber">
+            <h3 id="question">
                 Question #1
             </h3>
             <br/>
             <form action="score.html">
+                <input id="prezRange" name="prezRange" type="hidden" value=""/>
+                <input id="questionNumber" name="questionNumber" type="hidden" value=""/>
+                <input id="totalScore" name="totalScore" type="hidden" value=""/>
+                <input id="points" name="points" type="hidden" value="6"/>
+                <input id="correctAnswer" name="correctAnswer" type="hidden" value=""/>
                 <div class="row" id="clues">
                     <div class="col-sm-4 sixPointClue">
                         <fieldset>
@@ -129,24 +136,36 @@
                 <button class="btn btn-success btn-lg btn-block" type="submit">
                     Submit
                 </button>
-                <button class="btn btn-warning btn-lg btn-block" type="button" name="clue" value="6" onclick="next_clue()" id="next-clue">
+                <button class="btn btn-warning btn-lg btn-block" id="next-clue" onclick="next_clue()" type="button">
                     Next Clue
                 </button>
             </form>
-            <div id="game-progress" class="game-progress">
-                <div class="status current">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-                <div class="status">&nbsp</div>
-            </div>
+            <!--             <div class="game-progress" id="game-progress">
+                <div class="status current">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+                <div class="status">
+                </div>
+            </div> -->
         </div>
         <hr/>
         <footer class="px-4 py-2">

@@ -14,6 +14,10 @@
         </script>
         <!-- CSS -->
         <link href="css/styles.css" rel="stylesheet"/>
+        <script src="js/questions.js">
+        </script>
+        <script src="js/score.js">
+        </script>
     </head>
     <body>
         <h1>
@@ -62,36 +66,40 @@
         </nav>
         <br/>
         <div class="container">
-            <h2>
+            <h2 id="correctAnswer">
                 Answer:
             </h2>
-            <p id="answer">
-            </p>
             <h3>
                 Clues:
             </h3>
-            <p>
+            <h4>
                 6 point clue:
+            </h4>
+            <p id="clue6">
             </p>
-            <p>
+            <h4>
                 4 point clue:
+            </h4>
+            <p id="clue4">
             </p>
-            <p>
+            <h4>
                 2 point clue:
+            </h4>
+            <p id="clue2">
             </p>
-            <h3>
+            <h3 id="earnedPoints">
                 Points Earned:
             </h3>
-            <p>
-            </p>
-            <h3>
+            <h3 id="total">
                 Total Points:
             </h3>
-            <p>
-            </p>
-            <form>
-                <button class="btn btn-warning btn-lg btn-block" type="submit">
-                    Next question
+            <form action="game.html" id="score-form">
+                <input id="prezRange" name="prezRange" type="hidden" value=""/>
+                <input id="questionNumber" name="questionNumber" type="hidden" value=""/>
+                <input id="totalScore" name="totalScore" type="hidden" value=""/>
+                <input id="points" name="points" type="hidden" value="6"/>
+                <button class="btn btn-warning btn-lg btn-block" type="submit" id="next-question">
+                    Next Question
                 </button>
             </form>
         </div>

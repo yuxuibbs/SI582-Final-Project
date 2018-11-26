@@ -14,10 +14,12 @@
         </script>
         <!-- CSS -->
         <link href="css/styles.css" rel="stylesheet"/>
+        <script src="js/displayScore.js">
+        </script>
     </head>
     <body>
         <h1>
-            Online Presidents: User Profile
+            Online Presidents
         </h1>
         <nav class="navbar navbar-expand navbar-dark bg-dark">
             <div class="collapse navbar-collapse">
@@ -27,7 +29,7 @@
                             Home
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="play.html">
                             Play
                         </a>
@@ -52,7 +54,7 @@
                             Sign In
                         </a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="profile.html">
                             Profile
                         </a>
@@ -62,12 +64,18 @@
         </nav>
         <br/>
         <div class="container">
-            <h2>
-                User Profile
+            <h2 id="total">
+                Final Score:
             </h2>
-            <h3>
-                History
-            </h3>
+            <a class="btn btn-primary btn-lg btn-block" href="play.html" role="button">
+                Play Again
+            </a>
+            <a class="btn btn-primary btn-lg btn-block" href="index.html" role="button">
+                Back to Home Page
+            </a>
+            <a class="btn btn-primary btn-lg btn-block" href="profile.html" role="button">
+                View Profile
+            </a>
         </div>
         <hr/>
         <footer class="px-4 py-2">

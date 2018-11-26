@@ -3,9 +3,13 @@
     text-align: center;
 }
 
+
+#clue6, #clue4, #clue2 {
+    margin-bottom: 10px;
+}
+
 #clue4, #clue2 {
     visibility: hidden;
-    margin-bottom: 10px;
 }
 
 .sixPointClue {

@@ -1,4 +1,10 @@
 /* Entire site */
+h1 {
+    background: #343A40;
+    color: skyblue;
+    margin: 0;
+}
+
 .center {
     text-align: center;
 }

@@ -28,38 +28,33 @@
 }
 
 div .form-check-inline {
-    margin: 10px;
-    padding: 0;
+    border: 5px solid white;
+    margin: 0;
     background: lightblue;
     border-radius: 15px;
+    padding: 0;
 }
 
 .form-check-label {
     text-align: center;
     margin: 0 auto;
+    width: 100%;
 }
 
-@media (min-width: 576px) {
-    .col-sm-4 {
-        width: 30%;
+input {
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width: 576px) {
+    #next-clue {
+        position: fixed;
+        bottom: 0;
     }
-}
 
-@media (min-width: 768px) {
-    .col-md-3 {
-        width: 21%;
-    }
-}
-
-@media (min-width: 992px) {
-    .col-lg-2 {
-        width: 14%;
-    }
-}
-
-@media (min-width: 1442px) {
-    .col-lg-2 {
-        width: 15%;
+    #submit-button {
+        position: fixed;
+        bottom: 50px;
     }
 }
 

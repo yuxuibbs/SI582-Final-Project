@@ -76,7 +76,7 @@
             </div>
         </nav>
         <br/>
-        <div class="container-fluid">
+        <div class="container">
             <h2>
                 Play Online Presidents
             </h2>
@@ -139,15 +139,17 @@
                 <h2>
                     Answer
                 </h2>
-                <div class="row-fluid" id="answers">
+                <div class="row" id="answers">
                 </div>
                 <br/>
-                <button class="btn btn-success btn-lg btn-block" type="submit">
-                    Submit
-                </button>
-                <button class="btn btn-warning btn-lg btn-block" id="next-clue" onclick="next_clue()" type="button">
-                    Next Clue
-                </button>
+                <div class="row">
+                    <button class="btn btn-success btn-lg btn-block" id="submit-button" type="submit">
+                        Submit
+                    </button>
+                    <button class="btn btn-warning btn-lg btn-block" id="next-clue" onclick="next_clue()" type="button">
+                        Next Clue
+                    </button>
+                </div>
             </form>
             <!--             <div class="game-progress" id="game-progress">
                 <div class="status current">

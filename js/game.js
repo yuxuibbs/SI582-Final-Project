@@ -26,9 +26,11 @@ function printGazeteer() {
         prezAnswers += `
             <div class="form-check-inline col-lg-2 col-md-3 col-sm-4">
                 <label class="form-check-label">
-                    <input class="form-check-input" name="answer" type="radio" value="` + parseInt(prezInfo[i]) + `"/>` + prezInfo[i] + `<br/>
+                    <input class="form-check-input" name="answer" type="radio" value="` + parseInt(prezInfo[i]) + `"/>` 
+                    + '<p>' + prezInfo[i] + `<br/>
                     <strong>` + prezInfo[i + 1] + `</strong>
                     <br/>` + prezInfo[i + 2] + `<br/>` + prezInfo[i + 3] + `<br/>` + prezInfo[i + 4] + `<br/>` + prezInfo[i + 5] + `<br/>` + prezInfo[i + 6] + `<br/>
+                    </p>
                 </label>
             </div>
             `;
@@ -83,6 +85,7 @@ function keep_data() {
     $("#totalScore").val(totalScore);
 }
 
+
 $(document).ready(function() {
     var getInfo = new URL(window.location.href);
     questionNumber = parseInt(getInfo.searchParams.get('questionNumber'));
@@ -90,4 +93,10 @@ $(document).ready(function() {
     $("#question").text("Question #" + questionNumber);
     questions(printGazeteer());
     keep_data();
+    $('input[type=radio]').change(function() {
+        $(".form-check-inline").css("border", "5px solid white");
+        if ($(this).is(':checked')) {
+            $(this).parent().parent().css("border", "5px solid blue");
+        }
+    });
 });

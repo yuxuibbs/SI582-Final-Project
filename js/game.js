@@ -21,6 +21,11 @@ function printGazeteer() {
         startPrez = 238;
         stopPrez = 314;
     }
+    
+    if (isNaN(prezRange)) {
+        $("#prezRange").val(0);
+    }
+
     var prezAnswers = "";
     for (var i = startPrez; i < stopPrez; i += 7) {
         prezAnswers += `

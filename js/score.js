@@ -17,6 +17,7 @@ $(document).ready(function() {
     $("#earnedPoints").append(points);
     $("#total").append(score);
     $("#correctAnswer").append(correctAnswer);
+    $("#answer").append(answer);
     $("#points").val(points);
     $("#prezRange").val(prezRange);
     $("#questionNumber").val(questionNumber);
